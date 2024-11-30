@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
+                    sh 'git clone https://github.com/andradesysadmin/kubelab && cd kubelab'
                     sh 'sudo chmod +x start.sh'
                 }
             }
