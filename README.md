@@ -12,7 +12,7 @@ I make an effort to add an install.sh script to all my projects. The idea is tha
    ```
 ### Manual instalation
    ```bash
-   git clone https://github.com/andradesysadmin/homelab.git
+   git clone https://github.com/homemlinux/homelab.git
    cd homelab
    chmod +x start.sh
    sudo start.sh
