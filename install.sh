@@ -21,7 +21,7 @@ if ! command -v git --version > /dev/null; then
     exit 1
 fi
 
-git clone https://github.com/andradesysadmin/homelab
+git clone https://github.com/homemlinux/homelab
 cd homelab
 sudo chmod +x start.sh
 sudo ./start.sh
